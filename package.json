@@ -1,25 +1,16 @@
 {
   "name": "traveler.moe",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RafaelArrifano/traveler.moe.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RafaelArrifano/traveler.moe/issues"
-  },
-  "homepage": "https://github.com/RafaelArrifano/traveler.moe#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "mongoose": "^5.10.7",
+    "morgan": "~1.9.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
